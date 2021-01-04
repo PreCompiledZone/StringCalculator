@@ -7,7 +7,11 @@ import org.junit.Test;
 
 import com.calc.StringCalculator;
 
-class StringCalculatorTest {
+public class StringCalculatorTest {
+	
+	public StringCalculatorTest() {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Test
 	public void testEmptyString() {
