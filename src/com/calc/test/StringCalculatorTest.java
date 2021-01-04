@@ -1,15 +1,18 @@
 package com.calc.test;
 
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.calc.StringCalculator;
 
 class StringCalculatorTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void testEmptyString() {
+		assertEquals(0, StringCalculator.add(""));
 	}
+	
 
 }
