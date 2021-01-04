@@ -14,5 +14,20 @@ class StringCalculatorTest {
 		assertEquals(0, StringCalculator.add(""));
 	}
 	
+	@Test
+	public void testOneNumber() {
+		assertEquals(1, StringCalculator.add("1"));
+	}
+
+	@Test
+	public void testTwoNumbers(){
+		assertEquals(3, StringCalculator.add("1,2"));
+	}
+	
+	@Test
+    public void testThreeNumbers(){
+    	assertEquals(6, StringCalculator.add("1,2,3"));
+    }
+	
 
 }
