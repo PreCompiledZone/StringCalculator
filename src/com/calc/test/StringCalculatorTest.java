@@ -39,5 +39,10 @@ class StringCalculatorTest {
     	assertEquals(3, StringCalculator.add("//;\n1;2"));
     }
 	
+	@Test
+    public void testOverThousand(){
+    	assertEquals(2, StringCalculator.add("1000,2"));
+    }
+	
 
 }
